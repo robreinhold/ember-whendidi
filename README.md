@@ -1,5 +1,8 @@
 # Whendidi
 
+To upload "dist" directory to S3 with correct permissions:
+`aws s3 cp --recursive --acl public-read . s3://when-did-i`
+
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
