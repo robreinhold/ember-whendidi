@@ -1,0 +1,12 @@
+<div class="jumbo">
+    <div class="right tomster"></div>
+    <h2>Task List</h2>
+</div>
+
+{{#each model as |task|}}
+    <article class="task">
+        <div>ID: {{task.id}}</div>
+        <div>user: {{task.user}}</div>
+        <div>description: {{task.description}}</div>
+    </article>
+{{/each}}
